@@ -11,7 +11,8 @@ class App extends React.Component {
             <div className="box">
                 <div>
                    <div className="messages">
-                        <Message /> {/* Exemple de message*/}
+                        <Message pseudo="Kev"/> {/*Un component avec un exemple de message*/}
+                                    {/*props : */}
                    </div>
                     <Form /> {/* Creation d'un composant formulaire pour saisir le message*/}
             </div>

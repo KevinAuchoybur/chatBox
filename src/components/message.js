@@ -6,7 +6,8 @@ class Message extends React.Component {
         return(
             //Exemple d'un message
         <p className="user-message">
-        Pseudo : Un exemple de message
+        {/*Appel de la prop contenu dans app.js*/}
+        {this.props.pseudo} : Test
         </p>
         )
     }
