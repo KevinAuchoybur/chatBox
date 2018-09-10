@@ -3,13 +3,14 @@ import React from 'react' ;
 import {render} from 'react-dom';
 /*CSS*/
 import './index.css';
-/*Importer un component*/
-import Connexion from './components/connexion' 
+/*Component*/
+import Connexion from './components/connexion';
+import App from './components/app' ;
 
 
     /* fonction qui affiche le rendu */
     render(
-    <Connexion />,
+    <App />,
     document.getElementById('root')
     );
 

@@ -14,4 +14,4 @@ class Connexion extends React.Component {
     }
 }
 
-export default Connexion
+export default Connexion;
